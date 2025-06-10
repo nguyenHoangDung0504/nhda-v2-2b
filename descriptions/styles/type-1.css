@@ -1,0 +1,33 @@
+.desc-type-1 {
+    border-radius: 5px;
+    background-color: #222;
+    padding: 1rem;
+}
+
+.desc-type-1>div {
+    padding-bottom: 1rem;
+}
+
+hr {
+    margin-bottom: 1rem;
+    /* width: 75%; */
+}
+
+.desc-type-1 h2 {
+    margin-bottom: .5rem;
+    font-size: 1.25em;
+}
+
+.desc-type-1 p {
+    display: block;
+    padding-left: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: clamp(.75rem, 2vw, 1rem);
+}
+
+.desc-type-1 strong {
+    display: block;
+    font-size: clamp(.75rem, 2vw, 1rem);
+    margin-bottom: .5rem;
+}
