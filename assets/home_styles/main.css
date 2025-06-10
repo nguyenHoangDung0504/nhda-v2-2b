@@ -608,6 +608,7 @@ body:not(.openMenu) .content .grid-container .grid-item .flex-container .text-co
     color: var(--special-color);
     padding: 2px 5px;
     border-radius: 5px;
+    word-break: break-all;
     /*   font-weight: 600;   */
 }
 

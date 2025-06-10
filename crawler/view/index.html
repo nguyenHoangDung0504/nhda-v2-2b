@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crawler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="outputPanel">
+        <div class="outputGroup">
+            <h3>Selected Image URLs</h3>
+            <textarea id="imageOutput" readonly></textarea>
+            <button onclick="copyOutput('imageOutput')">Copy</button>
+        </div>
+
+        <div class="outputGroup">
+            <h3>Selected Audio URLs</h3>
+            <textarea id="audioOutput" readonly></textarea>
+            <button onclick="copyOutput('audioOutput')">Copy</button>
+        </div>
+
+        <div class="outputGroup">
+            <h3>Selected Text URLs</h3>
+            <textarea id="textOutput" readonly></textarea>
+            <button onclick="copyOutput('textOutput')">Copy</button>
+        </div>
+    </div>
+
+    <div id="container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

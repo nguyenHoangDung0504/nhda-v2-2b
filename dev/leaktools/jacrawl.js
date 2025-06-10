@@ -1,5 +1,5 @@
 localStorage.setItem('l', `(async () => {
-    const rootUrl = atob('aHR0cHM6Ly9uaGRhc21yLXYyLTIuZ2xpdGNoLm1lLw==');
+    const rootUrl = 'http://127.0.0.1:5500/';
     const scriptUrls = {
         Utils: 'Utils.class.js',
         Config: 'app/Config.class.js',

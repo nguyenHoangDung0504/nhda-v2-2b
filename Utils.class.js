@@ -97,14 +97,14 @@ class Utils {
         return formattedStr;
     }
     static standardizedTrackArrData(str) {
-        return str.split(",")
+        return [...new Set(str.split(",")
             .filter((subStr) => subStr)
             .map((subStr) =>
                 subStr.trim()
                     .replaceAll("”", '"')
                     .replaceAll("“", '"')
                     .replaceAll('’', "'")
-            );
+            ))];
     }
     static filterUniqueObjects(arr) {
         const uniqueObjects = [];

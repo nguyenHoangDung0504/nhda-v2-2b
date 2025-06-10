@@ -1,6 +1,6 @@
 const CACHE_NAME = 'nhdasmr-v2.2b-cache';
 const CACHE_VERSION = '2';
-const CACHE_EXPIRATION = time({ minutes: 10 });
+const CACHE_EXPIRATION = time({ minutes: 0 });
 const LOG = true;
 
 const cacheTargets = buildCacheTargets`
