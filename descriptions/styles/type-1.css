@@ -7,6 +7,9 @@
 .desc-type-1>div {
     padding-bottom: 1rem;
 }
+.desc-type-1 img {
+    max-width: 25%;
+}
 
 hr {
     margin-bottom: 1rem;
