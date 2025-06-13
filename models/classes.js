@@ -137,7 +137,7 @@ class Tag extends Category {
     }
 
     getHtml() {
-        return `<span class="tag">${this.name} (${this.quantity})</span>`;
+        return `<span class="${this.name === 'Described' ? 'series' : 'tag'}">${this.name} (${this.quantity})</span>`;
     }
     getHtmlLink() {
         return `<a href="${s2}/?tag=${encodeURIComponent(this.name)}">${this.getHtml()}</a>`;
