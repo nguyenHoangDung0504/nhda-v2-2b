@@ -1,5 +1,5 @@
 const CACHE_NAME = 'nhdasmr-v2.2b-cache';
-const CACHE_VERSION = '2';
+const CACHE_VERSION = '3';
 const CACHE_EXPIRATION = time({ minutes: 10 });
 const LOG = true;
 

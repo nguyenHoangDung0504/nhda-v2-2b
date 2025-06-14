@@ -165,7 +165,7 @@ class Utils {
 
 const WORKER_PATH = '/cache.worker.mjs';
 
-if ('serviceWorker' in navigator && window.location.href.includes('nhdasmr')) {
+if ('serviceWorker' in navigator) {
     navigator.serviceWorker.getRegistration().then((registration) => {
         if (registration) {
             console.log('--> [CacheManager]: Service Worker already registered.');
